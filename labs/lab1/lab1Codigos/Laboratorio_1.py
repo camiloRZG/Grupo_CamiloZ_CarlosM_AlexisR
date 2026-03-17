@@ -1,3 +1,4 @@
+##Carlos Mendoza Laboratorio, Camilo Zepeda, Alexi Riffo
 
 ## Ejercicio 1 Ley de Ohm y Alerta de Potencia
 #ingresar el valor de voltaje y corriente en este caso usare enteros
@@ -32,10 +33,10 @@ while voltaje>=voltaje_min:
 
 print("horas enteras:", n)
 
-
 ##Ejercicio 3
+#inicio la variable para poder condicionar el while
 
-#inicio un ciclo while true para mostrar indefinidamente el menu
+
 while True:
 #muestro primero las opciones y luego hago el input para seleccionar la opcion
 #realizo print de cada una de las opciones disponibles
