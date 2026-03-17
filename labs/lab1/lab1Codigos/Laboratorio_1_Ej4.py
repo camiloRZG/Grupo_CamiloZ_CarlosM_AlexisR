@@ -6,6 +6,7 @@ while True:
         #creo una condición por si el valor ingresado es menor a 20 sea invalido ya que no se especifica
         if grados < 20:
             print("valor invalido")
+            print("--------------------------------------------------")
         #creo otra condicion si grados esta entre los dos valores solicitados va a mostrar un "estado normal"
         elif 20 <= grados <= 45:
             print("estado normal")
