@@ -16,8 +16,10 @@ print("potencia:",potencia)
 #Condicionamiento con un comando if si es mayor a 100 print el mensaje y si es menor o igual a 1000 el otro print
 if potencia>1000:
     print("¡Peligro!, Alta disipación de potencia detectada.")
+    print("--------------------------------------------------")
 elif potencia <= 1000:
     print("Operacion en rangos seguros")
+    print("--------------------------------------------------")
 
 ##Ejercicio 2
 #Ingresar valor de voltaje y voltaje minimo de operacion como pide horas enteras usare int para todo
@@ -32,6 +34,7 @@ while voltaje>=voltaje_min:
         voltaje = voltaje*0.97
 
 print("horas enteras:", n)
+print("--------------------------------------------------")
 
 ##Ejercicio 3
 #inicio la variable para poder condicionar el while
@@ -54,17 +57,21 @@ while True:
     if variable == 1:
         miliamperios = float(input("Ingresar Miliamperios = "))
         print(f"amperios = {miliamperios/1000}")
+        print("--------------------------------------------------")
 #si la variable seleccionada es 2 calcular mf
     elif variable == 2:
         microfaradios = float(input("Ingresar Microfaradios = "))
         print(f"faradios = {microfaradios/1000000}")
+        print("--------------------------------------------------")
 #si la variable seleccionada es 3 calcular ko
     elif variable ==3:
         kiloohmios =  float(input("Ingresar Kiloohmios = "))
         print(f"ohmios = {kiloohmios*1000}")
+        print("--------------------------------------------------")
 #si la variable seleccionada es 4 salir del programa
     elif variable == 4:
         print("Se finalizó el programa")
+        print("--------------------------------------------------")
         break
 #si la variable es cualquier otro numero saldremos con un invalido
     else: print("Seleccion invalida")
