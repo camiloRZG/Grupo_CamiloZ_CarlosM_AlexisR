@@ -1,4 +1,4 @@
-##Carlos Mendoza Laboratorio, Camilo Zepeda, Alexi Riffo
+##Laboratorio 1
 
 ## Ejercicio 1 Ley de Ohm y Alerta de Potencia
 #ingresar el valor de voltaje y corriente en este caso usare enteros
