@@ -16,9 +16,3 @@ if conexion == 1:
     print(f"\nLa resistencia equivalente en SERIE es: {resistenciaeq:.2f} Ω")
 elif conexion == 2:
     print(f"\nLa resistencia equivalente en PARALELO es: {resistenciaeq:.2f} Ω")
-
-
-    
-    
-
-                 
