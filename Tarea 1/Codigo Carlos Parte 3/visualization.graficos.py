@@ -1,7 +1,6 @@
+import matplotlib.pyplot as plt
 
-
-
-#--------------------------------Inciso A---------------------------------
+#Parte A
 
 def plot_metricas(diccionario_experimentos,ambiente,ruta):                      #Primero defino la funcion con las variables de entrada en este caso los datos del diccionario,
                                                                                 #el ambiente que quiero y la ruta que quiero
@@ -79,7 +78,7 @@ def plot_metricas(diccionario_experimentos,ambiente,ruta):                      
     plt.show()
     return 
 
-#--------------------------------Inciso B---------------------------------
+#Parte B
 
 def plot_lidar(angulos,distancias,distancias_norm):
 
@@ -109,7 +108,7 @@ def plot_lidar(angulos,distancias,distancias_norm):
     
     return
 
-#--------------------------------Inciso C---------------------------------
+#Parte C
 
 def plot_trayectorias(x_ppo,y_ppo,x_mask,y_mask,waypoints,nombre):
 
